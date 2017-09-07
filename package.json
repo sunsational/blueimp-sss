@@ -1,7 +1,7 @@
 {
   "name": "blueimp-file-upload-expressjs",
-  "version": "0.4.5",
-  "description": "jQuery File Upload using Expressjs : 'borrowed' from Blueimp jQuery File Upload developed by Sebastian Tschan",
+  "version": "0.4.5pajk",
+  "description": "jQuery File Upload using Expressjs : 'borrowed' from Blueimp jQuery File Upload developed by Sebastian Tschan. (with pajk/lwip#developemnt dependency instead of lwip)",
   "main": "index.js",
   "scripts": {
     "test": "jasmine-node specs/"
@@ -10,7 +10,7 @@
     "async": "^0.9.0",
     "aws-sdk": "^2.1.20",
     "formidable": "^1.0.17",
-    "lwip": "~0.0.8",
+    "lwip": "Pajk/lwip#development",
     "mkdirp": "0.5.0"
   },
   "devDependencies": {
